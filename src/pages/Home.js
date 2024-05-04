@@ -2,7 +2,7 @@ import PageContent from "../components/PageContent";
 
 function HomePage() {
   return (
-    <PageContent title="Welcome!">
+    <PageContent title="Shaarvi's Drawings!">
       <div>
         <img
           src={process.env.PUBLIC_URL + "/sha1.png"}
@@ -22,8 +22,6 @@ function HomePage() {
           height={200}
           width={200}
         />
-      </div>
-      <div>
         <img
           src={process.env.PUBLIC_URL + "/sha4.png"}
           alt="test"
@@ -36,14 +34,14 @@ function HomePage() {
           height={200}
           width={200}
         />
+      </div>
+      <div>
         <img
           src={process.env.PUBLIC_URL + "/sha6.png"}
           alt="test"
           height={200}
           width={200}
         />
-      </div>
-      <div>
         <img
           src={process.env.PUBLIC_URL + "/sha7.png"}
           alt="test"
@@ -62,7 +60,14 @@ function HomePage() {
           height={200}
           width={200}
         />
+        <img
+          src={process.env.PUBLIC_URL + "/sha10.png"}
+          alt="test"
+          height={200}
+          width={200}
+        />
       </div>
+
       <p>Browse all our amazing events!!!!!</p>
     </PageContent>
   );
