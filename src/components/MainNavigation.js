@@ -19,16 +19,8 @@ function MainNavigation() {
               Home
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/events"
-              className={({ isActive }) =>
-                isActive ? classes.active : undefined
-              }
-            >
-              Events
-            </NavLink>
-          </li>
+        
+          
           <li>
             <NavLink
               to="/newsletter"
